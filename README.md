@@ -14,7 +14,7 @@ Core Dashboard es un proyecto Flutter diseñado para ser una aplicación web res
 ![Versión de Escritorio](assets/capturas/2.png)
 
 ### Versión Móvil
-![Versión Móvil](assets/capturas/1mobile.png)
+![Versión Móvil](assets/capturas/mobile.png)
 
 ## Instalación
 
