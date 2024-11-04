@@ -92,7 +92,7 @@ class TipsItem extends StatelessWidget {
                           width: 20,
                           radius: AppDefaults.borderRadius * 0.25,
                           imageSrc:
-                              'https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg',
+                              'https://cdn.pixabay.com/photo/2018/04/07/19/39/woman-3299379_1280.jpg',
                         ),
                         gapW8,
                         Text(time),

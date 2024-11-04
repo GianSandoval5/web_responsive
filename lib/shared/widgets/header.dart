@@ -1,8 +1,7 @@
 import 'package:core_dashboard/responsive.dart';
+import 'package:core_dashboard/shared/navigation/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:go_router/go_router.dart';
-
 import '../../theme/app_colors.dart';
 import '../constants/defaults.dart';
 import '../constants/ghaps.dart';
@@ -92,11 +91,12 @@ class Header extends StatelessWidget {
                       onPressed: () {},
                       icon: const CircleAvatar(
                         backgroundImage: NetworkImage(
-                            "https://cdn.create.vista.com/api/media/small/339818716/stock-photo-doubtful-hispanic-man-looking-with-disbelief-expression"),
+                            "https://cdn.pixabay.com/photo/2018/04/07/19/39/woman-3299379_1280.jpg"),
                       ),
                     ),
                   TextButton(
-                    onPressed: () => context.go('/sign-in'),
+                    onPressed: () =>
+                        Navigator.pushNamed(context, Routes.signIn),
                     style: TextButton.styleFrom(
                       foregroundColor:
                           Theme.of(context).textTheme.titleLarge!.color,
@@ -114,7 +114,8 @@ class Header extends StatelessWidget {
                   ),
                   gapW16,
                   ElevatedButton(
-                    onPressed: () => context.go('/register'),
+                    onPressed: () =>
+                        Navigator.pushNamed(context, Routes.register),
                     child: const Text("Sign Up"),
                   ),
                 ],

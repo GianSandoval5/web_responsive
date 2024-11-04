@@ -49,20 +49,20 @@ class CoustomersOverview extends StatelessWidget {
             CustomerAvatar(
               name: "John Doe",
               imageSrc:
-                  "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+                  "https://cdn.pixabay.com/photo/2017/04/01/21/06/portrait-2194457_1280.jpg",
               onPressed: () {},
             ),
             CustomerAvatar(
               name: "Elbert",
               imageSrc:
-                  "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg",
+                  "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg",
               onPressed: () {},
             ),
             if (!Responsive.isMobile(context))
               CustomerAvatar(
                 name: "Joyce",
                 imageSrc:
-                    "https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg",
+                    "https://cdn.pixabay.com/photo/2018/01/02/09/47/woman-3055841_1280.jpg",
                 onPressed: () {},
               ),
             Column(

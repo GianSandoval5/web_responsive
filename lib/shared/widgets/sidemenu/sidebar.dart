@@ -141,7 +141,7 @@ class Sidebar extends StatelessWidget {
                       name: 'Tran Mau Tri Tam',
                       designation: 'Visual Designer',
                       imageSrc:
-                          'https://cdn.create.vista.com/api/media/small/339818716/stock-photo-doubtful-hispanic-man-looking-with-disbelief-expression',
+                          'https://cdn.pixabay.com/photo/2018/04/07/19/39/woman-3299379_1280.jpg',
                     ),
                   gapH8,
                   const Divider(),

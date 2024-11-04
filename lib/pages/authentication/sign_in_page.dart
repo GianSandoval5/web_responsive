@@ -2,11 +2,10 @@ import 'package:core_dashboard/shared/constants/config.dart';
 import 'package:core_dashboard/shared/constants/defaults.dart';
 import 'package:core_dashboard/shared/constants/extensions.dart';
 import 'package:core_dashboard/shared/constants/ghaps.dart';
+import 'package:core_dashboard/shared/navigation/routes.dart';
 import 'package:core_dashboard/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:go_router/go_router.dart';
-
 import 'widgets/social_login_button.dart';
 
 class SignInPage extends StatelessWidget {
@@ -136,7 +135,7 @@ class SignInPage extends StatelessWidget {
                               color: AppColors.titleLight,
                             ),
                           ),
-                          onPressed: () => context.go('/register'),
+                          onPressed: () => Navigator.pushNamed(context, Routes.register),
                           child: const Text('Sign up'),
                         ),
                       ],

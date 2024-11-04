@@ -56,7 +56,7 @@ class PopularProducts extends StatelessWidget {
                 name: 'Crypter - NFT UI kit',
                 price: '\$2,453.80',
                 imageSrc:
-                    'https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg',
+                    'https://cdn.pixabay.com/photo/2018/04/07/19/39/woman-3299379_1280.jpg',
                 isActive: index % 2 == 0,
                 onPressed: () {},
               );
